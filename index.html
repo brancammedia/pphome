@@ -49,6 +49,8 @@
         .logo-img {
             height: 36px;
             width: auto;
+            image-rendering: -webkit-optimize-contrast;
+            image-rendering: crisp-edges;
         }
 
         .logo-divider {
@@ -303,6 +305,11 @@
             width: 100%;
             border-radius: 8px;
             margin-bottom: 16px;
+            image-rendering: -webkit-optimize-contrast;
+            image-rendering: crisp-edges;
+            -ms-interpolation-mode: nearest-neighbor;
+            backface-visibility: hidden;
+            transform: translateZ(0);
         }
 
         .feed-link {
@@ -458,8 +465,12 @@
             <div class="logo-subtitle">Partner Portal</div>
         </div>
         <div class="header-links">
-            <a href="https://www.linkedin.com/company/portor-industry" target="_blank">LinkedIn</a>
-            <a href="https://portorlighting.com" target="_blank" class="btn-main-site">portorlighting.com</a>
+            <a href="https://www.linkedin.com/company/portor-industry" target="_blank" title="LinkedIn" style="display: flex; align-items: center;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                </svg>
+            </a>
+            <a href="https://portorlighting.com" target="_blank" class="btn-main-site">PORTORLIGHTING.COM</a>
         </div>
     </header>
 
@@ -504,6 +515,50 @@
             <div class="section-header">
                 <h2>Latest Updates</h2>
             </div>
+
+            <!-- BLP-HO Product Preview -->
+            <article class="feed-item new">
+                <div class="feed-header">
+                    <div class="feed-date">
+                        January 23, 2026
+                        <span class="badge badge-new">Preview</span>
+                    </div>
+                    <h3 class="feed-title">Arriving April/May 2026 - High Output Flat Panel</h3>
+                </div>
+                <div class="feed-body">
+                    <div class="feed-content">
+                        <img src="https://files.constantcontact.com/886d7161901/44caef6d-1d99-43c1-8b41-cd5ad9444aa2.png?rdr=true" alt="BLP-HO High Output Panel">
+                        <p style="margin-bottom: 16px;"><strong>PT-BLP-HO-24-67-5C4P</strong> — Early Product Preview</p>
+                        <p style="margin-bottom: 16px;">The panel delivers strong, even light with low energy use and smooth 0–10V dimming. Its minimalist aesthetic provides bright, glare-free output suitable for various commercial applications including retail, schools, offices, markets, and restaurants.</p>
+
+                        <div class="highlights-box" style="margin-top: 16px;">
+                            <h3>✨ Key Features & Specifications</h3>
+                            <div class="highlight-item">
+                                <div class="highlight-icon">💡</div>
+                                <div class="highlight-text"><strong>10,000 Lumen Max</strong> — High output performance with uniform back-lit illumination</div>
+                            </div>
+                            <div class="highlight-item">
+                                <div class="highlight-icon">🎨</div>
+                                <div class="highlight-text"><strong>5 CCT Options</strong> — 3000K, 3500K, 4000K, 5000K, 6500K selectable</div>
+                            </div>
+                            <div class="highlight-item">
+                                <div class="highlight-icon">🔧</div>
+                                <div class="highlight-text"><strong>Multiple Mounting</strong> — Various configurations available, compatible with TEELIO controls</div>
+                            </div>
+                            <div class="highlight-item">
+                                <div class="highlight-icon">✅</div>
+                                <div class="highlight-text"><strong>Certifications</strong> — UL Listed, DLC Premium, IC Rated</div>
+                            </div>
+                            <div class="highlight-item">
+                                <div class="highlight-icon">⏱️</div>
+                                <div class="highlight-text"><strong>100,000+ Hours</strong> — L70 lifespan with 5-year limited warranty</div>
+                            </div>
+                        </div>
+
+                        <a href="https://myemail.constantcontact.com/Product-Preview--BLP-HO-High-Output-Panel.html?soid=1138536994440&aid=Ya8ax7gxjQU" target="_blank" class="feed-link">View Full Preview →</a>
+                    </div>
+                </div>
+            </article>
 
             <!-- New Inventory Tool -->
             <article class="feed-item pinned">
